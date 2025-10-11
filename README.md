@@ -31,10 +31,3 @@ Players take turns automatically.
 The header updates to show whose turn it is.
 
 Once a player wins or a draw occurs, the game resets automatically after 2 seconds.
-
-📂 Project Structure
-TicTacToe/
-│
-├── index.html        # Main HTML file
-├── TikTacToe.css     # Styling file
-└── TikTacToe.js      # Game logic (JavaScript)
