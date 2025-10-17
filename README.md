@@ -7,12 +7,12 @@ It allows two players to play alternately, checks for winners, detects draws, an
 
 💡 Features
 
-✅ Interactive 3×3 game grid
-✅ Alternating turns between X and O
-✅ Winning and draw detection
-✅ Auto reset after each round
-✅ Smooth hover effects and animations
-✅ Modern UI with gradient background and shadows
+✅ Interactive 3×3 game grid.
+✅ Alternating turns between X and O.
+✅ Winning and draw detection.
+✅ Auto reset after each round.
+✅ Smooth hover effects and animations.
+✅ Modern UI with gradient background and shadows.
 
 🧰 Technologies Used
 
