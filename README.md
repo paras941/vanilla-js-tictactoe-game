@@ -16,11 +16,11 @@ It allows two players to play alternately, checks for winners, detects draws, an
 
 🧰 Technologies Used
 
-HTML5 – for game layout
+HTML5 – for game layout.
 
-CSS3 – for design and styling
+CSS3 – for design and styling.
 
-JavaScript (Vanilla JS) – for game logic
+JavaScript (Vanilla JS) – for game logic.
 
 ⚙️ How to Play
 
