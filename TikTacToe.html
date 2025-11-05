@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Tic Tac Toe</title>
-   <link rel="stylesheet" href="TikTacToe.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe - Modern</title>
+    <link rel="stylesheet" href="TikTacToe.css">
+    
 </head>
 <body>
-  <header>
-    <div class="header">l e t  ' s &nbsp p l a y  &nbsp <span style="color: rgb(236, 79, 79);">T i c T a c T o e </span>☺️</div>
-  </header>
-  <div class="board">
-    <div class="cell x"></div>
-    <div class="cell o"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell x"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell o"></div>
-    <div class="cell"></div>
-  </div>
-  <div></div>
-  <script src="TikTacToe.js"></script>
+
+    <h1 class="main-title">Let's Play <span>Tic Tac Toe ☺️</span></h1>
+
+    <h2 class="status-display">It's X's turn</h2>
+
+    <div class="board" id="board">
+        <div class="cell" data-cell-index="0"></div>
+        <div class="cell" data-cell-index="1"></div>
+        <div class="cell" data-cell-index="2"></div>
+        <div class="cell" data-cell-index="3"></div>
+        <div class="cell" data-cell-index="4"></div>
+        <div class="cell" data-cell-index="5"></div>
+        <div class="cell" data-cell-index="6"></div>
+        <div class="cell" data-cell-index="7"></div>
+        <div class="cell" data-cell-index="8"></div>
+    </div>
+
+    <div class="game-over-screen hidden" id="gameOverScreen">
+        <p class="game-over-message" id="gameOverMessage"></p>
+        <button class="restart-button" id="restartButton">Restart</button>
+    </div>
+    <script src="TikTacToe.js" defer></script>
+
 </body>
 </html>
